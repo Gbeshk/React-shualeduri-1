@@ -1,0 +1,183 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+.namelabel {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nameinput {
+  max-width: 381px;
+  width: 100%;
+  height: 45px;
+  flex-shrink: 0;
+  padding-left: 16px;
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  margin-top: 9px;
+}
+.nameinput::placeholder {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+.numberlabel {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 26px;
+}
+.numberinput {
+  max-width: 381px;
+  width: 100%;
+  height: 45px;
+  flex-shrink: 0;
+  padding-left: 16px;
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  margin-top: 9px;
+}
+.numberinput::-webkit-outer-spin-button,
+.numberinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dateinput::-webkit-outer-spin-button,
+.dateinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cvcinput::-webkit-outer-spin-button,
+.cvcinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.numberinput::placeholder {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.datediv {
+  display: flex;
+  flex-direction: column;
+}
+.datelabel {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 26px;
+}
+.dateinput {
+  width: 80px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  padding-left: 16px;
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 9px;
+}
+.dateinput::placeholder {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+.year {
+  margin-left: 10px;
+}
+.dateandcodediv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cvcdiv {
+  display: flex;
+  flex-direction: column;
+}
+.cvclabel {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 26px;
+}
+.cvcinput {
+  width: 191px;
+  height: 45px;
+  flex-shrink: 0;
+  margin-top: 9px;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+}
+.cvcinput::placeholder {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+.btn {
+  max-width: 381px;
+  width: 100%;
+  height: 53px;
+  flex-shrink: 0;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  border-radius: 8px;
+  background: var(--Deep-Violet, #21092f);
+  font-weight: 500;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.bottomcard {
+  width: 447px;
+  height: 245px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(169deg, #fff 5%, #d2d3d9 91.69%);
+  position: absolute;
+  top: 469px;
+  left: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blackline {
+  width: 447px;
+  height: 54px;
+  flex-shrink: 0;
+  background: #2f2f2f;
+  margin-top: 23px;
+}
+.greyline {
+  width: 361px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #adb5be;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.lines {
+  margin-top: 33px;
+}
+.code {
+  color: var(--White, #fff);
+  text-align: right;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}

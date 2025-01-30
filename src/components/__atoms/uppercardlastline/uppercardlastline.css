@@ -1,0 +1,29 @@
+.username {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.carddate {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.uppercardlastline {
+  max-width: 383.2px;
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-top: 25.5px;
+}

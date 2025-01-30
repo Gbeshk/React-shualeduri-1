@@ -1,0 +1,10 @@
+.uppercard {
+  position: absolute;
+  width: 447px;
+  height: 245px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(164deg, #6348fe 4.74%, #610595 88.83%);
+  top: 187px;
+  left: 164px;
+}

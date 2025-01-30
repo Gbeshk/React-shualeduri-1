@@ -1,0 +1,14 @@
+.circles {
+  margin-left: 32px;
+  margin-top: 28px;
+}
+.longnumbers {
+  margin-left: 32px;
+  margin-top: 64px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 3.422px;
+}
