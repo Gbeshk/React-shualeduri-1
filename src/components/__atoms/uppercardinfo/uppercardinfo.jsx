@@ -7,7 +7,7 @@ function UpperCardInfo({ longnumber }) {
   return (
     <>
       <img src={circles} className="circles" alt="" />
-      <p className="longnumbers">{longnumber}</p>
+      <p className="longnumbers">0000 0000 0000 0000</p>
     </>
   );
 }

@@ -5,7 +5,9 @@ import Organism from "./components/__organism/organism/organism";
 function App() {
   return (
     <>
-      <Organism />
+      <div className="container">
+        <Organism />
+      </div>
     </>
   );
 }

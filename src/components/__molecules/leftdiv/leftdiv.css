@@ -1,7 +1,19 @@
 .leftdiv {
-    max-width: 483px;
-    width: 100%;
-    height: 900px;
-    flex-shrink: 0;
-    background: #21092f;
+  max-width: 483px;
+  width: 100%;
+  height: 900px;
+  flex-shrink: 0;
+  background: #21092f;
+}
+@media (max-width: 1130px) {
+  .leftdiv {
+    max-width: 400px;
   }
+}
+@media (max-width: 1000px) {
+  .leftdiv {
+    width: 375px;
+    height: 240px;
+    flex-shrink: 0;
+  }
+}

@@ -8,3 +8,13 @@
   top: 187px;
   left: 164px;
 }
+@media (max-width: 1000px) {
+  .uppercard {
+    width: 285px;
+    height: 156.208px;
+    flex-shrink: 0;
+    left: 17px;
+    top: 126.4px;
+    z-index: 2;
+  }
+}

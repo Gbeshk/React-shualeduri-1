@@ -12,3 +12,18 @@
   font-weight: 500;
   letter-spacing: 3.422px;
 }
+@media (max-width: 1000px) {
+  .circles {
+    margin-left: 19px;
+    margin-top: 17.5px;
+    width: 54px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+  .longnumbers {
+    font-size: 18px;
+    letter-spacing: 2.2px;
+    margin-left: 19px;
+    margin-top: 37px;
+  }
+}

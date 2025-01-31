@@ -2,4 +2,12 @@
   display: flex;
   gap: 349px;
   align-items: center;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .organism {
+    flex-direction: column;
+    gap: 0px;
+  }
 }

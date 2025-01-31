@@ -27,3 +27,19 @@
   margin-left: 32px;
   margin-top: 25.5px;
 }
+@media (max-width: 1000px) {
+  .username {
+    font-size: 9px;
+    letter-spacing: 1.286px;
+  }
+  .uppercardlastline {
+    margin-top: 17px;
+    margin-left: 19px;
+    max-width: 246px;
+    width: 100%;
+  }
+  .carddate {
+    font-size: 9px;
+    letter-spacing: 1.286px;
+  }
+}

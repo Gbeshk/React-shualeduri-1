@@ -60,7 +60,7 @@ function Registration() {
             />
           </div>
         </div>
-        <button className="btn">CONTINUE</button>
+        <button className="btn">CONFIRM</button>
       </form>
     </>
   );
