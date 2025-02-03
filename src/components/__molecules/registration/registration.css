@@ -4,6 +4,9 @@ form {
   max-width: 400px;
   width: 100%;
 }
+.dissapear {
+  display: none;
+}
 .namelabel {
   color: var(--Deep-Violet, #21092f);
   font-feature-settings: "liga" off, "clig" off;
@@ -157,6 +160,7 @@ form {
   font-family: "Space Grotesk";
   font-size: 18px;
   font-weight: 500;
+  padding-left: 16px;
 }
 .cvcinput::placeholder {
   color: var(--Deep-Violet, #21092f);
@@ -166,7 +170,6 @@ form {
   font-size: 18px;
   font-weight: 500;
   opacity: 0.25;
-  padding-left: 16px;
 }
 .btn {
   max-width: 381px;
@@ -184,12 +187,12 @@ form {
   margin-top: 40px;
   cursor: pointer;
 }
-@media (max-width: 1230px) {
+@media (max-width: 1115px) {
   .cvclabel {
     margin-top: 0px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   form {
     margin-top: 91px;
   }

@@ -4,8 +4,7 @@
   align-items: center;
   position: relative;
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   .organism {
     flex-direction: column;
     gap: 0px;

@@ -1,14 +1,14 @@
 import React from "react";
 import "../uppercardinfo/uppercardinfo.css";
 import circles from "../../../assets/images/circles.png";
-function UpperCardInfo({ longnumber }) {
-  console.log(longnumber);
 
+function UpperCard({ longnumber }) {
   return (
     <>
       <img src={circles} className="circles" alt="" />
-      <p className="longnumbers">0000 0000 0000 0000</p>
+      <p className="longnumbers">{longnumber}</p>
     </>
   );
 }
-export default UpperCardInfo;
+
+export default UpperCard;

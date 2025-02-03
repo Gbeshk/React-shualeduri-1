@@ -6,9 +6,9 @@
   border-radius: 10px;
   background: linear-gradient(164deg, #6348fe 4.74%, #610595 88.83%);
   top: 187px;
-  left: 164px;
+  left: 37%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   .uppercard {
     width: 285px;
     height: 156.208px;

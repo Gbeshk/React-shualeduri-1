@@ -6,7 +6,7 @@
   background: linear-gradient(169deg, #fff 5%, #d2d3d9 91.69%);
   position: absolute;
   top: 469px;
-  left: 258px;
+  left: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +43,7 @@
   text-transform: uppercase;
   margin-right: 16px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   .bottomcard {
     left: 73px;
     top: 32px;

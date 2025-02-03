@@ -1,11 +1,13 @@
 import React from "react";
 import "../uppercardlastline/uppercardlastline.css";
-function UpperCardLastLine() {
+function UpperCardLastLine({ name, month, year }) {
   return (
     <>
       <div className="uppercardlastline">
-        <p className="username">JANE APPLESEED</p>
-        <p className="carddate">00/00</p>
+        <p className="username">{name}</p>
+        <p className="carddate">
+          {month}/<span>{year}</span>
+        </p>
       </div>
     </>
   );

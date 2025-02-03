@@ -12,7 +12,7 @@
   font-weight: 500;
   letter-spacing: 3.422px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   .circles {
     margin-left: 19px;
     margin-top: 17.5px;

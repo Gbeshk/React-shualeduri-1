@@ -1,16 +1,11 @@
 .leftdiv {
-  max-width: 483px;
-  width: 100%;
+  width: 33.5%;
   height: 900px;
   flex-shrink: 0;
   background: #21092f;
+  position: relative;
 }
-@media (max-width: 1130px) {
-  .leftdiv {
-    max-width: 400px;
-  }
-}
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
   .leftdiv {
     width: 375px;
     height: 240px;
